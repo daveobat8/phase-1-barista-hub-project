@@ -31,9 +31,10 @@ function getCocktails (){
     });
 }; 
 
-
+// render cocktails to the webpage
 function renderAllCocktails(cocktails){
   const menu= document.querySelector('.drinks_details')
+
 
   
 cocktails.forEach((cocktail) => {
