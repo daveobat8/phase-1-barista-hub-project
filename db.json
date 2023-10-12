@@ -1,0 +1,124 @@
+{
+    "cocktails":  [
+        {
+            "ingredients": [
+                "5 parts white rum",
+                "3 parts coconut cream",
+                "5 parts fresh pineapple juice"
+            ],
+            "instructions": "Blend all the ingredients with ice in an electric blender, pour into a large goblet or Hurricane glass and serve.",
+            "name": "piña colada"
+        },
+        {
+            "ingredients": [
+                "1 oz Bourbon",
+                "1 oz Demerara Rum, Hamilton Demerara 151",
+                "1/2 oz Cynar",
+                "1/2 oz Coffee liqueur, Coffee Heering",
+                "1/4 oz Creme de Cacao",
+                "1 twst Orange peel (express oil)"
+            ],
+            "instructions": "Stir, strain, rocks glass, express peel and discard.",
+            "name": "cigarettes and chocolate milk"
+        },
+        {
+            "ingredients": [
+                "1/2 oz Coconut cream",
+                "1/2 oz Orgeat (roasted)",
+                "1/2 oz Coffee liqueur (Alamea Hawaiian)",
+                "1 1/2 oz Lime juice",
+                "2 oz Pineapple juice",
+                "1 1/2 oz Rhum Agricole (Rhum JM XO)",
+                "1 1/2 oz Jamaican rum (Doctor Bird)"
+            ],
+            "instructions": "Add 1 cup crushed ice to a blender and add the remaining ingredients. Blend for 5 seconds, then pour unstrained into a frozen pineapple. Garnish with pineapple fronds.",
+            "name": "hawaiian coffee colada"
+        },
+        {
+            "ingredients": [
+                "1 oz Tequila",
+                "1 oz Hazelnut liqueur, Frangelico",
+                "4 c Milk",
+                "3 oz Hot chocolate (1 3.1 oz disk Mexican hot chocolate)",
+                "1  Cinnamon stick",
+                "1 pn Chipotle powder (or chili powder)",
+                "1 pn Cinnamon (as garnish)"
+            ],
+            "instructions": "Bring the milk, chocolate, and cinnamon stick to a boil and then reduce to a simmer for 20 minutes until frothy and dissolved. Add tequila, Frangelico, and a pinch of chili powder to a coffee mug and top with hot chocolate mixture. Garnish with a pinch of cinnamon and a bit more chili or chipotle powder.",
+            "name": "spiced hot chocolate"
+        },
+        {
+            "ingredients": [
+                "1 oz Branca Menta",
+                "1 oz Jamaican rum, Appleton Estate V/X",
+                "1 1/2 oz Pineapple juice",
+                "3/4 oz Coconut cream (3 parts Coco Lopez : 1 part coconut milk)",
+                "1 spg Mint (as garnish)"
+            ],
+            "instructions": "Shake, strain, hurricane or Collins glass, top with crushed ice, mint sprig, and orange slice.",
+            "name": "brancolada"
+        },
+        {
+            "ingredients": [
+                "1 oz Armagnac",
+                "1 1/3 oz Peanut milk (see note)",
+                "1/3 oz Lime juice",
+                "1/2 sli Pineapple (0.5 to 1 inch)",
+                "1 pn Salt"
+            ],
+            "instructions": "Blend all with 4 ice cubes. Pour in glass. I 've strained the mix before serving.And served it on rocks.",
+            "name": "peanut colada"
+        },
+        {
+            "ingredients": [
+                "2 oz Stout, Left Hand Milk Stout",
+                "3/4 oz Coconut cream (3 parts Coco Lopez : 1 part coconut milk)",
+                "3/4 oz Pineapple juice",
+                "1/2 oz Demerara Rum, El Dorado 5",
+                "1/2 oz Jamaican rum, Smith & Cross",
+                "1 spg Mint (as garnish)"
+            ],
+            "instructions": "Shake, strain over one long ice shard in a Collins, garnish with slapped mint sprig, serve with straw.",
+            "name": "piña colada (beer)"
+        },
+        {
+            "ingredients": [
+                "1 1/2 oz Guatemalan rum, Zacapa 23",
+                "1 oz Averna",
+                "3/4 oz Lime juice",
+                "1/2 oz Simple syrup",
+                "1/4 oz Allspice Dram, Bitter Truth",
+                "2 oz Champagne",
+                "1 sli Lemon (as garnish)"
+            ],
+            "instructions": "Shake, strain over Champagne and ice, garnish.",
+            "name": "la cola nostra"
+        },
+        {
+            "ingredients": [
+                "1 oz Absinthe, Mansinthe",
+                "1/2 oz Martinique Rum, Rhum JM Blanc",
+                "1 oz Pineapple juice",
+                "1 oz Coconut syrup (3 parts coconut cream : 1 part coconut milk)",
+                "1 t Creme de Menthe",
+                "1 spg Mint (as garnish)"
+            ],
+            "instructions": "Shake, strain over crushed ice in a Collins or hurricane glass, garnish with slapped mint.",
+            "name": "absinthe colada"
+        },
+        {
+            "ingredients": [
+                "1 1/2 oz Jamaican rum",
+                "1/2 oz Creme de Banane",
+                "1/2 oz Coffee liqueur",
+                "1 1/2 oz Pineapple juice",
+                "3/4 oz Coconut cream",
+                "1/2 oz Orange juice",
+                "1/4 oz Lime juice",
+                "1 pn Nutmeg (garnish, fresh grated)"
+            ],
+            "instructions": "Dry shake all ingredients, pour into a mug/glass two-thirds filled with crushed ice.  Top with more crushed ice, add straw and garnish with fresh grated nutmeg.",
+            "name": "cafe colada"
+        }
+    ]
+}

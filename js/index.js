@@ -1,4 +1,4 @@
-const BASE_URL = 'https://api.api-ninjas.com/v1/cocktail?name=cola';
+const BASE_URL = 'http://localhost:3000/cocktails';
 
 //ensure DOM is loaded
 
@@ -9,13 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// create a headerlist 
-const headersList = {
-    "Accept": "*/*",
-    //"User-Agent": "Thunder Client (https://www.thunderclient.com)",
-    "X-Api-Key": "1ivn3UXAQv0kdbLKoqS2ag==0JFIXAWueVMxtr47"
-   };
-
    // fetch details
 
 
@@ -23,7 +16,6 @@ function getCocktails (){
 
     fetch( BASE_URL, {
         method: 'GET',
-        headers: headersList,
          }).then((res) => res.json())
            .then(renderAllCocktails)
             .catch((err) => {
