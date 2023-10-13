@@ -32,13 +32,20 @@ function renderAllCocktails(cocktails){
    const cardDiv= document.createElement('div')
    cardDiv.classList.add('card', 'h-30')
    //append the image before appending the card to the mainDiv
-   const image= document.createElement('img')
-   image.classList.add('card-img-top')
-   image.src =cocktail.image
-   image.alt =cocktail.name
+   const image= document.createElement('img');
+   image.classList.add('card-img-top');
+   image.src =cocktail.image;
+   image.alt =cocktail.name;
+   //add card body content
+   const cardBody= document.createElement('div')
+   cardBody.classList.add('card-body')
+   const title= document.createElement('h5')
+   title.textContent= cocktail.name
 
-   
-   
+
+
+   cardBody.appendChild(title)
+   cardDiv.appendChild(cardBody)
    cardDiv.appendChild(image)
    mainDiv.appendChild(cardDiv);
    menu.appendChild(mainDiv);
