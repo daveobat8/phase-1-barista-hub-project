@@ -36,6 +36,8 @@ function renderAllCocktails(cocktails){
    image.classList.add('card-img-top');
    image.src =cocktail.image;
    image.alt =cocktail.name;
+
+   
    //add card body content
    const cardBody= document.createElement('div')
    cardBody.classList.add('card-body')
@@ -47,18 +49,22 @@ function renderAllCocktails(cocktails){
    ingredients.classList.add('card-text')
    ingredients.textContent= `Ingredients: ${cocktail.ingredients} `;
 
-   con
-
-   cardBody.appendChild(ingredients)
-   cardBody.appendChild(title)
-   cardDiv.appendChild(cardBody)
+   const instructions= document.createElement('p')
+   instructions.classList.add('card-text')
+   instructions.textContent=`Instructions: ${cocktail.instructions}`;
+  
    cardDiv.appendChild(image)
+   cardBody.appendChild(title)
+   cardBody.appendChild(instructions)
+   cardBody.appendChild(ingredients)
+   
+   cardDiv.appendChild(cardBody)
    mainDiv.appendChild(cardDiv);
    menu.appendChild(mainDiv);
     
   });
  
-      
+
 
 };
 
