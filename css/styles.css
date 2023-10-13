@@ -61,9 +61,6 @@ nav ul li a::before {
 nav ul li a:hover::before {
     width: 100%;
 }
-
-  
-
   .text {
     white-space: nowrap; 
     color: white;
@@ -74,4 +71,12 @@ nav ul li a:hover::before {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+  }
+
+  .likebtn{
+    border-color: transparent;
+    background: inherit;
+    width: fit-content;
+    margin-left: auto;
+    padding: 20px;
   }
