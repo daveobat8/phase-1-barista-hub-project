@@ -30,7 +30,7 @@ function renderAllCocktails(cocktails){
    mainDiv.classList.add('col')
    //create the 2nd Div
    const cardDiv= document.createElement('div')
-   cardDiv.classList.add('card', 'h-30')
+   cardDiv.classList.add('card')
    //append the image before appending the card to the mainDiv
    const image= document.createElement('img');
    image.classList.add('card-img-top');
@@ -40,7 +40,7 @@ function renderAllCocktails(cocktails){
    const button= document.createElement('button')
    button.innerText= "🤍"
    button.classList.add('likebtn')
-   cardDiv.appendChild(button)
+   
 
    //add card body content
    const cardBody= document.createElement('div')
@@ -59,7 +59,7 @@ function renderAllCocktails(cocktails){
   
    cardDiv.appendChild(image)
    cardDiv.appendChild(title)
-   
+   cardDiv.appendChild(button)
    cardBody.appendChild(ingredients)
    cardBody.appendChild(instructions)
    cardDiv.appendChild(cardBody)

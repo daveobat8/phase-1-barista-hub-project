@@ -5,9 +5,7 @@
     list-style: none;
     box-sizing: border-box;
 }
-body {
-   font-family: cursive ; 
-}
+
 .background_image {
     width: 100%;
     height: 350px;
@@ -19,7 +17,7 @@ body {
 
 
 nav {
-    background-color: rgba(234, 214, 148, 0.898);
+    background-color: wheat;
     height: 50px;
     width: 100%;
 }
@@ -28,6 +26,7 @@ label.logo {
     font-size: 25px;
     line-height: 50px;
     padding: 0px 40px;
+    font-family:"Posterama 2001 W04 Regular" ;
 
 }
 nav ul{
@@ -41,12 +40,13 @@ nav ul li{
 }
 nav ul li a {
     position: relative;
-    color: black ;
+    color: black;
     font-size: 15px;
     padding: 3px 7px;
     border-radius: 5px;
     text-transform: uppercase;
-
+    text-decoration: none;
+    font-family: "Posterama 2001 W04 Regular";
 }
 nav ul li a::before {
     content: '';
@@ -56,15 +56,16 @@ nav ul li a::before {
     width: 0;
     height: 1.5px;
     background: #000000;
-    transition: .4s;
+    transition: .3s;
 }
 nav ul li a:hover::before {
     width: 100%;
 }
   .text {
     white-space: nowrap; 
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 70px;
+    font-family: "Posterama 2001 W04 Regular";
     position: absolute;
     overflow: hidden;
     top: 50%;
@@ -72,14 +73,47 @@ nav ul li a:hover::before {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+ #app-parent .card{
+    width: 100%;
+  /*   border-radius: 20px; */
+    border-color: black ;
+    padding-bottom: 0;
+    background-color:rgb(54, 53, 53);
+  }
 
   .likebtn{
     border-color: transparent;
-    background: inherit;
-    width: fit-content;
-    margin-left: auto;
-    padding: 20px;
+    background: rgb(54, 53, 53) ;
+    margin: auto;
+    padding: 3px;
   }
   .hide{
     display: none;
   }
+ 
+#drinks_details {
+   background-color: black;
+   
+}
+#app-parent .card-title{
+    text-align: center;
+    font-family: serif;
+    background-color: rgb(54, 53, 53);
+    color: wheat ;
+}
+.card-text{
+    color: wheat;
+}
+.col{
+    padding: 3px;
+    margin-top: 10px;
+}
+@font-face {
+    font-family: "Posterama 2001 W04 Regular";
+    src: url("https://db.onlinewebfonts.com/t/ea250342ec4016561ba9e791c2f39c11.eot");
+    src: url("https://db.onlinewebfonts.com/t/ea250342ec4016561ba9e791c2f39c11.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ea250342ec4016561ba9e791c2f39c11.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ea250342ec4016561ba9e791c2f39c11.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/ea250342ec4016561ba9e791c2f39c11.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ea250342ec4016561ba9e791c2f39c11.svg#Posterama 2001 W04 Regular")format("svg");
+}
