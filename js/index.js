@@ -21,10 +21,27 @@ function getCocktails (){
 
 // render cocktails to the webpage
 function renderAllCocktails(cocktails){
-  const menu= document.querySelector('.drinks_details');
+  const menu= document.getElementById('drinks_details');
 
   cocktails.forEach((cocktail) => {
-    menu.innerHTML +=`<li>${cocktail.name}</li>`
+
+   //menu.innerHTML +=`<li>${cocktail.name}</li>`
+   const mainDiv= document.createElement('div')
+   mainDiv.classList.add('col')
+   //create the 2nd Div
+   const cardDiv= document.createElement('div')
+   cardDiv.classList.add('card', 'h-30')
+   //append the image before appending the card to the mainDiv
+   const image= document.createElement('img')
+   image.classList.add('card-img-top')
+   image.src =cocktail.image
+   image.alt =cocktail.name
+
+   
+   
+   cardDiv.appendChild(image)
+   mainDiv.appendChild(cardDiv);
+   menu.appendChild(mainDiv);
     
   });
  
