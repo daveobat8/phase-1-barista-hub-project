@@ -36,8 +36,12 @@ function renderAllCocktails(cocktails){
    image.classList.add('card-img-top');
    image.src =cocktail.image;
    image.alt =cocktail.name;
+   // like button added
+   const button= document.createElement('button')
+   button.innerText= "🤍"
+   button.classList.add('likebtn')
+   cardDiv.appendChild(button)
 
-   
    //add card body content
    const cardBody= document.createElement('div')
    cardBody.classList.add('card-body')
