@@ -80,3 +80,6 @@ nav ul li a:hover::before {
     margin-left: auto;
     padding: 20px;
   }
+  .hide{
+    display: none;
+  }

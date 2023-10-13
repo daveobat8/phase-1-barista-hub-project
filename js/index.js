@@ -44,9 +44,9 @@ function renderAllCocktails(cocktails){
 
    //add card body content
    const cardBody= document.createElement('div')
-   cardBody.classList.add('card-body')
+   cardBody.classList.add('card-body','hide')
    const title= document.createElement('h5')
-   title.classList.add('card-title');
+   title.classList.add('card-title', 'show');
    title.textContent= cocktail.name;
    //add instruction and ingredients
    const ingredients = document.createElement('p')
@@ -58,10 +58,10 @@ function renderAllCocktails(cocktails){
    instructions.textContent=`Instructions: ${cocktail.instructions}`;
   
    cardDiv.appendChild(image)
-   cardBody.appendChild(title)
-   cardBody.appendChild(instructions)
-   cardBody.appendChild(ingredients)
+   cardDiv.appendChild(title)
    
+   cardBody.appendChild(ingredients)
+   cardBody.appendChild(instructions)
    cardDiv.appendChild(cardBody)
    mainDiv.appendChild(cardDiv);
    menu.appendChild(mainDiv);
@@ -76,7 +76,13 @@ function renderAllCocktails(cocktails){
     })
   });
 
-  
+  //show card details
+  const titles= document.querySelectorAll('.show')
+  titles.forEach(title => {
+    title.addEventListener('click', (e) =>{
+      e.currentTarget.parentElement.querySelector('.card-body').classList.toggle('hide');
+    })
+  })
   
 
 
