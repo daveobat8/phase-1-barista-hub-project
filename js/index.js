@@ -68,6 +68,16 @@ function renderAllCocktails(cocktails){
     
   });
  
+  // for like button
+  const like= document.querySelectorAll('.likebtn')
+  like.forEach(btn => {
+    btn.addEventListener('click', (e)=> {
+      e.currentTarget.innerText ="❤";
+    })
+  });
+
+  
+  
 
 
 };
