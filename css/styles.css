@@ -91,5 +91,8 @@ nav ul li a:hover::before {
     -ms-transform: translate(-50%, -50%);
   }
   .drinks_details{
-    display: grid; 
+    padding: 10px;
+  }
+  .drinks_details img{
+    size: 40px 40px;
   }

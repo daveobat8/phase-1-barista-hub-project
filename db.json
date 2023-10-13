@@ -7,7 +7,8 @@
                 "5 parts fresh pineapple juice"
             ],
             "instructions": "Blend all the ingredients with ice in an electric blender, pour into a large goblet or Hurricane glass and serve.",
-            "name": "piña colada"
+            "name": "piña colada",
+            "image": "https://img.freepik.com/free-photo/milk-shake-pina-colada-table_140725-4835.jpg?w=740&t=st=1697110498~exp=1697111098~hmac=428f74d2592dbdc676c298acfaff20c6cfeb2d8dde8ed9489dae449382beae53"
         },
         {
             "ingredients": [
@@ -19,7 +20,8 @@
                 "1 twst Orange peel (express oil)"
             ],
             "instructions": "Stir, strain, rocks glass, express peel and discard.",
-            "name": "cigarettes and chocolate milk"
+            "name": "cigarettes and chocolate milk",
+            "image": "https://img.freepik.com/free-photo/close-up-brown-creamy-cocktail-glass-cinnamon-sticks_141793-2072.jpg?w=740&t=st=1697110594~exp=1697111194~hmac=dcc39a3145b973e78658ebd1bf756b1b8f08fc36db6a3a6101b5f6e38666db6b"
         },
         {
             "ingredients": [
@@ -32,7 +34,8 @@
                 "1 1/2 oz Jamaican rum (Doctor Bird)"
             ],
             "instructions": "Add 1 cup crushed ice to a blender and add the remaining ingredients. Blend for 5 seconds, then pour unstrained into a frozen pineapple. Garnish with pineapple fronds.",
-            "name": "hawaiian coffee colada"
+            "name": "hawaiian coffee colada",
+            "image":"https://img.freepik.com/free-photo/front-view-milkshake-with-whipped-cream-chocolate-icing-coffee-beans-table_141793-2835.jpg?w=740&t=st=1697110836~exp=1697111436~hmac=e14c163aa1712ad5c93073e6b5d90b004985d41958545d372466e2f3eadf73c5"
         },
         {
             "ingredients": [
@@ -45,7 +48,8 @@
                 "1 pn Cinnamon (as garnish)"
             ],
             "instructions": "Bring the milk, chocolate, and cinnamon stick to a boil and then reduce to a simmer for 20 minutes until frothy and dissolved. Add tequila, Frangelico, and a pinch of chili powder to a coffee mug and top with hot chocolate mixture. Garnish with a pinch of cinnamon and a bit more chili or chipotle powder.",
-            "name": "spiced hot chocolate"
+            "name": "spiced hot chocolate",
+            "image": "https://img.freepik.com/free-photo/hot-chocolate-with-cinnamon-sticks-holiday-food-photography_53876-103586.jpg?w=740&t=st=1697110941~exp=1697111541~hmac=7ab8261a377753bcab04f6cd85aaebf71eb5297b5665095419319af06027eaaf"
         },
         {
             "ingredients": [
@@ -56,7 +60,8 @@
                 "1 spg Mint (as garnish)"
             ],
             "instructions": "Shake, strain, hurricane or Collins glass, top with crushed ice, mint sprig, and orange slice.",
-            "name": "brancolada"
+            "name": "brancolada",
+            "image":  "https://img.freepik.com/free-photo/glass-pineapple-cocktail-garnished-with-pineapple-slice_140725-6946.jpg?w=740&t=st=1697111117~exp=1697111717~hmac=184e70233d0b28e892e8e2a537489399e7e0506aea3870f45520fb8550dac4a3"
         },
         {
             "ingredients": [
@@ -67,7 +72,8 @@
                 "1 pn Salt"
             ],
             "instructions": "Blend all with 4 ice cubes. Pour in glass. I 've strained the mix before serving.And served it on rocks.",
-            "name": "peanut colada"
+            "name": "peanut colada",
+            "image": "https://img.freepik.com/free-photo/close-up-chocolate-milkshake_23-2148635681.jpg?w=740&t=st=1697111282~exp=1697111882~hmac=7db4bd702e846a8adac1f270125a29ef28050248d63535cbe601ed0a78773d23"
         },
         {
             "ingredients": [
@@ -79,7 +85,8 @@
                 "1 spg Mint (as garnish)"
             ],
             "instructions": "Shake, strain over one long ice shard in a Collins, garnish with slapped mint sprig, serve with straw.",
-            "name": "piña colada (beer)"
+            "name": "piña colada (beer)",
+            "image":"https://chezus.com/wp-content/uploads/2016/07/Pina-Colada-3-768x1152.jpg.webp"
         },
         {
             "ingredients": [
@@ -92,7 +99,8 @@
                 "1 sli Lemon (as garnish)"
             ],
             "instructions": "Shake, strain over Champagne and ice, garnish.",
-            "name": "la cola nostra"
+            "name": "la cola nostra",
+            "image": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2FEdit%2FCosa%20Nostra%20Cocktail"
         },
         {
             "ingredients": [
@@ -104,7 +112,8 @@
                 "1 spg Mint (as garnish)"
             ],
             "instructions": "Shake, strain over crushed ice in a Collins or hurricane glass, garnish with slapped mint.",
-            "name": "absinthe colada"
+            "name": "abs in the colada",
+            "image": "https://www.liberandcompany.com/cdn/shop/products/AbsintheColada-Square.jpg?v=1612886991"
         },
         {
             "ingredients": [
@@ -118,7 +127,8 @@
                 "1 pn Nutmeg (garnish, fresh grated)"
             ],
             "instructions": "Dry shake all ingredients, pour into a mug/glass two-thirds filled with crushed ice.  Top with more crushed ice, add straw and garnish with fresh grated nutmeg.",
-            "name": "cafe colada"
+            "name": "cafe colada",
+            "image": "https://images-gmi-pmc.edge-generalmills.com/a95a0ade-28c2-4ca8-9600-15266017a3cd.jpg"
         }
     ]
 }

@@ -1,16 +1,10 @@
 const BASE_URL = 'http://localhost:3000/cocktails';
 
-//ensure DOM is loaded
-
+//ensure DOM is loaded 
 document.addEventListener('DOMContentLoaded', () => {
-  getCocktails()
-
+  getCocktails();
 
 });
-
-
-   // fetch details
-
 
 function getCocktails (){
 
@@ -23,21 +17,18 @@ function getCocktails (){
     });
 }; 
 
+
+
 // render cocktails to the webpage
 function renderAllCocktails(cocktails){
-  const menu= document.querySelector('.drinks_details')
+  const menu= document.querySelector('.drinks_details');
 
-
-  
-cocktails.forEach((cocktail) => {
-      const cocktailName= document.createElement('h1')
-      cocktailName.textContent= cocktail.name
-       cocktailName.addEventListener ('click',() => {
-        console.log(`clicked ${cocktail.name}`)
-       }) 
-      menu.appendChild(cocktailName);
+  cocktails.forEach((cocktail) => {
+    menu.innerHTML +=`<li>${cocktail.name}</li>`
+    
+  });
+ 
       
-  })
-};
 
+};
 
