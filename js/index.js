@@ -22,7 +22,7 @@ function getCocktails (){
 // render cocktails to the webpage
 function renderAllCocktails(cocktails){
   const menu= document.getElementById('drinks_details');
-
+  menu.innerHTML="";
   cocktails.forEach((cocktail) => {
 
    //menu.innerHTML +=`<li>${cocktail.name}</li>`
@@ -40,10 +40,16 @@ function renderAllCocktails(cocktails){
    const cardBody= document.createElement('div')
    cardBody.classList.add('card-body')
    const title= document.createElement('h5')
-   title.textContent= cocktail.name
+   title.classList.add('card-title');
+   title.textContent= cocktail.name;
+   //add instruction and ingredients
+   const ingredients = document.createElement('p')
+   ingredients.classList.add('card-text')
+   ingredients.textContent= `Ingredients: ${cocktail.ingredients} `;
 
+   con
 
-
+   cardBody.appendChild(ingredients)
    cardBody.appendChild(title)
    cardDiv.appendChild(cardBody)
    cardDiv.appendChild(image)
